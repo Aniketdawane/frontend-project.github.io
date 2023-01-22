@@ -1,0 +1,437 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid blue;     */
+
+}
+
+.Mainheader {
+    padding: 0 4.8rem;
+    height: 8rem;
+    background-color: rgb(215, 247, 248);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    height: 5rem;
+    width: 5rem;
+    border: 4px solid rgb(230, 227, 227);
+}
+
+.cart-trolly-position {
+    position: relative;
+}
+
+.navbar {
+    background-color: cadetblue !important;
+}
+
+.navlist {
+    /* border: 1px solid red; */
+    font-size: 1.2rem;
+    font-weight: bold;
+
+
+}
+
+.Cart-trolly {
+    position: relative;
+    font-size: 3.2rem;
+    font-weight: bold !important;
+    color: blue !important;
+
+}
+
+.cart-total {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background-color: rgb(5, 5, 240);
+    color: rgb(244, 231, 231);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    top: -20%;
+    left: 70%;
+
+}
+
+/* firstsection page */
+.hero-section-data p {
+    margin: 2rem 0;
+}
+
+.hero .Btn {
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    padding: 15px;
+    width: 13rem;
+    background-color: darkorange;
+    border: 2px solid rgb(21, 2, 2) !important;
+}
+
+.hero .Btn .shopicon {
+    border: 3px solid rgb(249, 243, 243);
+    border-radius: 50px;
+    font-size: 2.2rem;
+    padding: 5px;
+    height: 3rem;
+    width: 3rem;
+    font-weight: bold !important;
+}
+
+
+.hero-section-data h1 {
+    padding: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 5rem;
+    color: rgb(9, 150, 17);
+    border-left: 10px solid rgb(235, 13, 247);
+    border-bottom: 10px solid rgb(27, 7, 248);
+    /* border-top: 0.1px solid rgb(15, 15, 17);
+    border-right: 0.1px solid rgb(15, 15, 17); */
+    border-bottom: 12px solid rgb(27, 7, 248);
+    border-radius: 20px;
+}
+
+.intro-data {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.img-style {
+    width: 100%;
+    height: auto;
+}
+
+.figure img {
+    min-width: 20rem;
+    height: 20rem;
+    /* border-radius:50px; */
+}
+
+figure {
+    position: relative;
+}
+
+figure::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 181, 228, 0.4);
+    position: absolute;
+    left: 20%;
+    top: -2rem;
+    z-index: -100;
+}
+
+/* firstsection page */
+
+/* service page */
+.service1 .icon {
+    color: rgb(4, 65, 235);
+    font-size: 3rem;
+}
+
+.service1 {
+    flex-direction: column;
+
+}
+
+.one,
+.Four {
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 15rem;
+    /* border: 1px solid red; */
+    /* padding: 40px 20px; */
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+
+.Two,
+.Three {
+    /* border: 1px solid rgb(18, 0, 5); */
+    gap: 4rem;
+    height: 6rem;
+    border-radius: 8px;
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main2 {
+    gap: 4rem;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* service page */
+
+/* service2 page  */
+.Brands {
+    background-color: aliceblue;
+    height: 20rem;
+    /* border-radius: 8px; */
+}
+
+.Brands img {
+    min-width: 8rem;
+    height: 8rem;
+    transition: all ease 0.5s;
+}
+.Brands img:hover{
+   margin-top:-1rem;
+   height: 9rem;
+}
+
+/* service2 page  */
+/* contact page */
+.contacts {
+    height: 100%;
+    background-color: rgb(236, 253, 236);
+}
+
+/* contact page */
+/* Footer page */
+.footerterms a,
+span {
+    color: rgb(233, 231, 228) !important;
+    transition: all ease 0.2;
+}
+
+.footerterms .icons {
+    font-size: 2.5rem;
+}
+
+.footerterms .icon:hover {
+    font-size: 3rem;
+    background-color: darkgoldenrod;
+}
+
+footer {
+    /* border: 1px solid red; */
+    background-color: rgb(25, 7, 71);
+    height: auto;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+/* Footer page */
+/* Error page */
+.Error {
+    background-color: aliceblue;
+    border-radius: 2rem;
+    height: 20rem;
+    background-color: aliceblue;
+}
+
+/* Error page */
+/* homeservice */
+.feturefont {
+    font-size: 3rem;
+    color: rgb(6, 136, 235);
+}
+
+.feturebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cardbody .card {
+    border: 1px solid transparent;
+    border-radius: 0px;
+    background-color: aliceblue;
+    transition: all ease 0.5s;
+    height: 20rem;
+    border-radius: 5px;
+}
+
+.cardbody .card img {
+    height: 12rem;
+}
+
+.feturebox .card:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 10px gray;
+    margin-top: -10px;
+}
+
+/* homeservice */
+
+/* prostaic */
+.static {
+    height: 70%;
+    /* border: 1px solid red; */
+    background-color: rgb(230, 220, 220);
+}
+
+.static .watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 30rem;
+    /* background-image: url(img/watch.png); */
+}
+
+.static .watch img {
+    height: 25rem;
+    /* margin-left: 25rem; */
+}
+
+/* .static .watch img {} */
+
+.static .up,
+.down {
+    height: 30vh;
+}
+
+/* prostaic */
+
+/* side nav bar */
+.Navbar {
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+.navheight {
+    /* border: 2px solid rgb(51, 29, 216); */
+    height: 97%;
+    background-color:cadetblue;
+    font-family: 'Inter', sans-serif;
+
+}
+
+/* side nav bar */
+/* product list  */
+.Productlist img{
+    height: 15rem;
+    width: 15rem;
+    padding: 1rem;
+    
+} .Productlist .rupee{
+    font-size: 1rem;
+}
+.Productlist .body{
+    background-color:aliceblue;
+    
+}
+ .Resultfont{
+     color: rgb(235, 132, 6);
+     font-size: 2rem;
+    }
+    .Productlist .name:hover{
+        color: red;
+    }
+    .cartbtn{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cartbtn button{
+    border: none !important;
+    border-radius: 0px !important;
+    background-color: rgb(32, 82, 218) !important;
+}
+.cartbtn button:hover{
+    color: rgb(202, 3, 3);
+    background-color: rgb(241, 163, 8);
+}
+/* product list  */
+.warning{
+    height: 40px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    background-color: rgb(210, 91, 91);
+    font-size: 1.1rem;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* cart */
+
+/* cart */
+.Carousel .slider-wrapper img{
+    border: 2px solid red;
+    height:60vh;
+    
+}
+.Carousel{
+    text-align: center;
+}
+.craousael .thumb{
+    border: 2px solid rgb(0, 255, 89);
+
+
+}
+/* slider  */
+.app{
+    /* background-color:antiquewhite; */
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+
+.slick-slide div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.card{
+    /* border: 1px slide #fff; */
+    background:transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 23rem;
+    color: #fff;
+
+}
+
+.card-top img{
+    margin-top: 5px;
+    width: 100%;
+    height: 22rem;
+    /* object-fit: cover; */
+}
+.card-bottom{
+    margin: 10px 20px;
+}
+.outerbox{
+    border: 2px solid green;
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.new-arrival{
+    background: url(https://cdn.pixabay.com/photo/2021/11/03/05/33/fitness-band-6764739_960_720.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+/* slider  */
